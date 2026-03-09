@@ -16,15 +16,21 @@ class MenuItems {
 
 const menuItems = <MenuItems>[
   MenuItems(
-    title: 'botones',
-    subtitle: 'Varios Botones de flutter',
-    link: '/botones',
+    title: 'Botones',
+    subtitle: 'Varios botones en Flutter',
+    link: '/buttons',
     icon: Icons.smart_button_outlined,
   ),
   MenuItems(
     title: 'Tarjetas',
-    subtitle: 'Varias Tarjetas en flutter',
-    link: '/tarjetas',
-    icon: Icons.credit_card_off_outlined,
+    subtitle: 'Un contenedor estilizado',
+    link: '/cards',
+    icon: Icons.credit_card,
+  ),
+  MenuItems(
+    title: 'Progress Indicators',
+    subtitle: 'Generales y controlados',
+    link: '/progress',
+    icon: Icons.refresh_rounded,
   ),
 ];
