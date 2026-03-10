@@ -33,4 +33,41 @@ const menuItems = <MenuItems>[
     link: '/progress',
     icon: Icons.refresh_rounded,
   ),
+  MenuItems(
+    title: 'snackbar',
+    subtitle: 'G',
+    link: '/snackbar',
+    icon: Icons.smart_button_outlined,
+  ),
+  MenuItems(
+    title: 'Animation',
+    subtitle: 'Animaciones generales',
+    link: '/animated',
+    icon: Icons.animation,
+  ),
+  MenuItems(
+    title: 'Tutorial',
+    subtitle: 'Tutorial de Scroll infinito',
+    link: '/app_tutorial',
+    icon: Icons.score_sharp,
+  ),
+  MenuItems(
+    title: 'UI Controls',
+    subtitle: 'Controles UI',
+    link: '/ui_controls',
+    icon: Icons.settings,
+  ),
+
+  MenuItems(
+    title: 'HOME',
+    subtitle: 'Pagina principal',
+    link: '/home',
+    icon: Icons.home,
+  ),
+  MenuItems(
+    title: 'Scroll Infinited',
+    subtitle: 'Scroll infinito',
+    link: '/infinite_scroll',
+    icon: Icons.settings,
+  ),
 ];
